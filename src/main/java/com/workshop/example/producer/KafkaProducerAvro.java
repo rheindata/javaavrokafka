@@ -12,7 +12,7 @@ public class KafkaProducerAvro {
     private final static String TOPIC = "test-java-avro-topic";
     private final static String BOOTSTRAP_SERVERS =
             "localhost:29092,localhost:29093,localhost:29094";
-    private final static String SCHEMA_REGISTRY_URL = "http://localhost:8081";
+    private final static String SCHEMA_REGISTRY_URL = "http://localhost:8082";
 
     private static Producer<Long, Notification> createProducer() {
         Properties props = new Properties();
